@@ -46,7 +46,7 @@ function buildAccount() {
     .prompt([
       {
         name: "accountName",
-        message: "Digite um nome para sua conta: ",
+        message: "Digite o nome de sua conta: ",
       },
     ])
     .then((answer) => {
